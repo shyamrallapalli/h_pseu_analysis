@@ -124,15 +124,15 @@ The data seem too sparse to be comparable.
 
 ##Go id information appended to Chalara gff
 
-x.csv file created by Dan's analysis is used to append the go id information to Chalara fraxinea gff file
+x.csv file created by Dan's analysis is used to append the go id information to [Chalara fraxinea gff file](https://github.com/ash-dieback-crowdsource/data/blob/1f02fa58f361a8447e93239061f7b09eb40b56ce/ash_dieback/chalara_fraxinea/Kenninghall_wood_KW1/annotations/Gene_predictions/TGAC_Chalara_fraxinea_ass_s1v1_ann_v1.1/Chalara_fraxinea_ass_s1v1_ann_v1.1.gene.gff)
 
-I have created parse-data-GFF-atributes.rb script that uses data from CSV in to a hash
+I have created [parse-data-GFF-atributes.rb](https://github.com/shyamrallapalli/h_pseu_analysis/blob/8be80d791cc697ec2a77e05e4205d20cc59896f7/go_analysis/parse-data-GFF-atributes.rb) script that uses data from CSV in to a hash
 
 command for analysis is
 
 * `ruby parse-data-GFF-atributes.rb x.csv Chalara_fraxinea_ass_s1v1_ann_v1.1.gene.gff`
 
-And it creates a new file `Chalara_fraxinea_ass_s1v1_ann_v1.1.gene_goids.gff`
+And it creates a new file [`Chalara_fraxinea_ass_s1v1_ann_v1.1.gene_goids.gff`](https://github.com/shyamrallapalli/h_pseu_analysis/blob/8be80d791cc697ec2a77e05e4205d20cc59896f7/go_analysis/Chalara_fraxinea_ass_s1v1_ann_v1.1.gene_goids.gff)
 
 And the GO data for each gene is appended to the "gene" row of GFF
 GO data is appended as following two attributes:
