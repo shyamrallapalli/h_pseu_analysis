@@ -118,3 +118,16 @@ length(levels(as.factor(y$ratio)))
 
 
 The data seem too sparse to be comparable. 
+
+##### Date 2013 November 8th
+
+###Go id information extraction EBI webservice GO slim
+
+Guide lines are at [EBI Quick GO](http://www.ebi.ac.uk/QuickGO/WebServices.html)
+
+I have modified the [get_descriptions.rb](https://github.com/shyamrallapalli/h_pseu_analysis/blob/25e9c44bdad515ce59db00dc6ffc9728bdef02ff/go_analysis/get_descriptions.rb) from master branch to 
+extract Go domain information in addtion to slim description with modified [get_descriptions.rb](https://github.com/shyamrallapalli/h_pseu_analysis/blob/5884214ee65915536bb4224e4920181d8d95a5a6/go_analysis/get_descriptions.rb)
+
+* `ruby get_descriptions.rb results.json`
+
+And it creates a new file `terms_and_descriptions.json`
