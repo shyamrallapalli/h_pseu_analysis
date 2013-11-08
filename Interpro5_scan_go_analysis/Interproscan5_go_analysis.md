@@ -33,3 +33,4 @@ SVG files created by Interproscan5 holds interesting information, therefore SVG 
 
 An example of svg file produced
 [SVG-out/CHAFR746836.1.1_0032310.1.svg](SVG-out/CHAFR746836.1.1_0032310.1.svg)
+SVG file links for 5961 proteins with domains detected are provided at [ash-dieback-crowdsource](https://github.com/ash-dieback-crowdsource/data/blob/bb7b68bd8a20cbf542a88f9a47340cfd2302cd7f/ash_dieback/chalara_fraxinea/Kenninghall_wood_KW1/annotations/Gene_predictions/TGAC_Chalara_fraxinea_ass_s1v1_ann_v1.1/Interproscan5-go-analysis/Interproscan5-svg-files.txt) github
