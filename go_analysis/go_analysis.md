@@ -118,3 +118,23 @@ length(levels(as.factor(y$ratio)))
 
 
 The data seem too sparse to be comparable. 
+
+
+##### Date 2013 November 8th
+
+##Go id information appended to Chalara gff
+
+x.csv file created by Dan's analysis is used to append the go id information to Chalara fraxinea gff file
+
+I have created parse-data-GFF-atributes.rb script that uses data from CSV in to a hash
+
+command for analysis is
+
+* `ruby parse-data-GFF-atributes.rb x.csv Chalara_fraxinea_ass_s1v1_ann_v1.1.gene.gff`
+
+And it creates a new file `Chalara_fraxinea_ass_s1v1_ann_v1.1.gene_goids.gff`
+
+And the GO data for each gene is appended to the "gene" row of GFF
+GO data is appended as following two attributes:
+Ontology_term= have GO ids
+and ontology_term_description= have GO id descriptions
