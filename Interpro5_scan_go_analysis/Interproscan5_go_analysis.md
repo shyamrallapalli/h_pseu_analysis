@@ -34,3 +34,24 @@ SVG files created by Interproscan5 holds interesting information, therefore SVG 
 An example of svg file produced
 [SVG-out/CHAFR746836.1.1_0032310.1.svg](SVG-out/CHAFR746836.1.1_0032310.1.svg)
 SVG file links for 5961 proteins with domains detected are provided at [ash-dieback-crowdsource](https://github.com/ash-dieback-crowdsource/data/blob/bb7b68bd8a20cbf542a88f9a47340cfd2302cd7f/ash_dieback/chalara_fraxinea/Kenninghall_wood_KW1/annotations/Gene_predictions/TGAC_Chalara_fraxinea_ass_s1v1_ann_v1.1/Interproscan5-go-analysis/Interproscan5-svg-files.txt) github
+
+
+#### Date: 2013 November 14
+###Extraction of protein domain information from Interproscan5 analysis
+
+Results files downloaded from Interproscan5 performed on 5th November were saved locally.
+These results files were processed to extract domain information for each protein such as PFAM, PANTHER etc.., in addition to Gene Ontology.
+
+
+Command to process the data
+
+* `ruby run_iprscn5_get_results.rb done.log`
+
+ 
+It produces csv file with results `get_results.csv` and saves *.svg files with respective protein name, for easy visualization of domain present in each protein.
+
+Header row for results csv file is `"gene","database","id","domain","description"`
+  
+
+
+ 
